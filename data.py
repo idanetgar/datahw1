@@ -29,8 +29,5 @@ def filter_by_feature(data,feature,values):
     return data1, data2
 
 def print_details(data,features,statistic_functions):
-    for i in features:
 
-        print("feature:/n"statistic_functions[0](data[i]),"\n")
-        print(statistic_functions[1](data[i]),"\n")
-        print(statistic_functions[2](data[i]),"\n")
+
