@@ -30,4 +30,10 @@ def filter_by_feature(data,feature,values):
 
 def print_details(data,features,statistic_functions):
 
+    for i in features:
+        print(i+': ')
+        print(statistic_functions[0](data[i])+', ')
+        print(statistic_functions[1](data[i])+', ')
+        print(statistic_functions[2](data[i]))
+
 
